@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67FB4906-E219-492D-B9F1-6F8FDE58EED2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp3</RootNamespace>
+    <AssemblyName>WindowsFormsApp3</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bölüm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bölüm.Designer.cs">
+      <DependentUpon>Bölüm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor.Designer.cs">
+      <DependentUpon>Doktor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneOtomasyonuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneOtomasyonuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneOtomasyonuDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneOtomasyonuDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="işlemler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="işlemler.Designer.cs">
+      <DependentUpon>işlemler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="poliklinik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="poliklinik.Designer.cs">
+      <DependentUpon>poliklinik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Saat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saat.Designer.cs">
+      <DependentUpon>Saat.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bölüm.resx">
+      <DependentUpon>Bölüm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor.resx">
+      <DependentUpon>Doktor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="işlemler.resx">
+      <DependentUpon>işlemler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="poliklinik.resx">
+      <DependentUpon>poliklinik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Saat.resx">
+      <DependentUpon>Saat.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="HastaneOtomasyonuDataSet.xsc">
+      <DependentUpon>HastaneOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneOtomasyonuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneOtomasyonuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneOtomasyonuDataSet.xss">
+      <DependentUpon>HastaneOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneOtomasyonuDataSet1.xsc">
+      <DependentUpon>HastaneOtomasyonuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneOtomasyonuDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneOtomasyonuDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneOtomasyonuDataSet1.xss">
+      <DependentUpon>HastaneOtomasyonuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\şifre foto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kullanıcı foto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kullanıcı.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\şifre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kullanıcı1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otomasyon doktor 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otomasyon doktor 3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otomasyon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kullanıcı2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-flat-blue-color-rounded-icon-vector-5629870.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\296-2969961_no-image-user-profile-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otomasyon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_289643146_NRez8uDukwHFfPY6qanoP8w4chmqzEDD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_289643146_NRez8uDukwHFfPY6qanoP8w4chmqzEDD1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_190740938_qPxzPPfMGQlif3qOLy3qtj8yWWt25VQm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-computer-icons-skype-icon-design-change-password-logo-internet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-password-password-black-and-white-padlock-login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otomasyon 3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otomasyon doktor 31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctor-Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-949812160-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ekran Görüntüsü %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-949812160-170667a1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ekran Görüntüsü %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otomasyon 4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-165045585-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_78594982-stock-photo-medical-drip-on-the-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_442428001.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

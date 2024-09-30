@@ -1,0 +1,30 @@
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.işlemler.resources
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Bölüm.resources
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Doktor.resources
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.poliklinik.resources
+C:\Users\Lenovo\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Saat.resources
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.AssemblyReference.cache
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Bölüm.resources
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Doktor.resources
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.işlemler.resources
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.poliklinik.resources
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Saat.resources
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+D:\masaüstü\Hastane Otomasyonu\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
